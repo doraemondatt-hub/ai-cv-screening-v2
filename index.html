@@ -484,7 +484,7 @@
                 const formData = new FormData();
                 formData.append('jd', jd);
                 formData.append('campaign', campaign);
-                formData.append('file', file);
+                formData.append('data', file);
 
                 try {
                     const response = await fetch(WEBHOOK_1_URL, {
